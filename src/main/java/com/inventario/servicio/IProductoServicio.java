@@ -5,11 +5,11 @@ import com.inventario.modelo.Producto;
 import java.util.List;
 
 public interface IProductoServicio {
-    public List<Producto> listarProductos();
+    List<Producto> listarProductos();
 
-    public Producto buscarProductoPorId(Integer idProducto);
+    Producto buscarProductoPorId(Integer idProducto);
 
-    public void guardarProducto(Producto producto);
+    Producto guardarProducto(Producto producto);
 
-    public void eliminarProductoPorId(Integer idProducto);
+    void eliminarProductoPorId(Integer idProducto);
 }
